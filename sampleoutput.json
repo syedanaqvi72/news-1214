@@ -1,0 +1,143 @@
+{
+    "status": "ok",
+    "totalResults": 2,
+    "articles": [
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
+ {
+    "status": "ok"
+    "totalResults": 8,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Jackie Wattles",
+            "title": "Virgin Galactic set for first spaceflight since Richard Branson's trip two years ago | CNN Business",
+            "description": "Virgin Galactic, the suborbital space tourism company, is gearing up for its first flight to the edge of space in nearly two years.",
+            "url": "https://www.cnn.com/2023/05/08/business/virgin-galactic-space-tourism-test-flight-scn/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230508100940-virgin-galactic-space-tourism-test-flight-split.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-05-08T16:56:40Z",
+            "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more. \r\nVirgin Galactic, the suborbital space tourism company… [+4657 chars]"
+        },
+    
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "Brahmjot Kaur",
+            "title": "Paisley power suits and Qipao crop tops: Asian Americans create new style trends with blended identities",
+            "description": "A traditional business suit might be transformed into a bold power suit, made from upcycled sari fabric and embellished with traditional prints like paisleys.",
+            "url": "https://www.nbcnews.com/news/asian-america/paisley-power-suits-qipao-crop-tops-asian-americans-create-new-style-t-rcna77460",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-05/230501-apahm-style-lr-e7d6cb.jpg",
+            "publishedAt": "2023-05-08T13:00:00Z",
+            "content": "A traditional business suit might be transformed into a bold power suit, made from upcycled sari fabric and embellished with traditional prints like paisleys. The going-out top gets a revamp with a M… [+6982 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Deepa Seetharaman, Berber Jin",
+            "title": "No Business Plan? No Problem. ChatGPT Spawns an Investor Gold Rush in AI",
+            "description": "Amid broader venture-capital doldrums, it is boom times for startups touting generative artificial intelligence tech",
+            "url": "https://www.wsj.com/articles/no-business-plan-no-problem-chatgpt-spawns-an-investor-gold-rush-in-ai-6bdbed3c?mod=hp_lead_pos12",
+            "urlToImage": "https://images.wsj.net/im-776000/social",
+            "publishedAt": "2023-05-08T10:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "newsweek",
+                "name": "Newsweek"
+            },
+            "author": "Mark Davis",
+            "title": "Newsweek",
+            "description": "Newsweek provides in-depth analysis, news and opinion about international issues, technology, business, culture and politics.",
+            "url": "https://www.newsweek.com/",
+            "urlToImage": "https://d.newsweek.com/en/full/2202468/special-presidential-envoy-climate-john-kerry.jpg",
+            "publishedAt": "2023-03-01T12:07:28.8517009Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "financial-post",
+                "name": "Financial Post"
+            },
+            "author": "Financial Post",
+            "title": "Financial Post",
+            "description": "Stay up-to-date with the latest business trends and information on the Canadian economy, stock market and personal finance. Learn to save money, invest in the market, grow your wealth and advance your career with new skills.",
+            "url": "https://financialpost.com/category/personal-finance/business-essentials/",
+            "urlToImage": "https://dcs-static.gprod.postmedia.digital/12.2.3/websites/images/postmedia-image-fallback.png",
+            "publishedAt": "2022-11-13T00:37:35.7082248Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "‘Money is no object’: Ghislaine Maxwell trial shines light on class divide",
+            "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+            "url": "https://www.ft.com/content/0b9d93da-1687-4eb1-bd53-0a84a1b40dff",
+            "urlToImage": null,
+            "publishedAt": "2021-12-14T06:22:29.1165883Z",
+            "content": "Keep abreast of significant corporate, financial and political developments around the world.\r\nStay informed and spot emerging risks and opportunities with independent global reporting, expert\r\ncomme… [+32 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "Need relief from the stress of screen time? There’s an app for that",
+            "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+            "url": "https://www.ft.com/content/221cf7c4-56e7-4c7e-b6c0-cc3737da0330",
+            "urlToImage": null,
+            "publishedAt": "2021-12-14T06:22:27.4295096Z",
+            "content": "Let our global subject matter experts broaden your perspective with timely insights and opinions you\r\ncant find anywhere else."
+        },
+        {
+            "source": {
+                "id": "financial-post",
+                "name": "Financial Post"
+            },
+            "author": "Financial Post",
+            "title": "News",
+            "description": "Latest breaking business news &amp; headlines. Stay in touch with the latest happenings in Local and International organizations and financial sector.",
+            "url": "http://business.financialpost.com/category/news/",
+            "urlToImage": null,
+            "publishedAt": "2020-07-09T18:37:17.5638279Z",
+            "content": "Visit the Postmedia Brands page\r\n365 Bloor Street East, Toronto, Ontario, M4W 3L4\r\n© 2020 Financial Post, a division of Postmedia Network Inc. All rights reserved. Unauthorized distribution, transmis… [+41 chars]"
+        }
+    ]
+}
