@@ -41,21 +41,15 @@ this.state={
       <div className="container my-4">
         <h2> News 1214 - Top headlines</h2>
         <div className='row'>
-          <div className="col-md-4">
-               <NewsItem title="my title" description ="my desc"imageUrl="https://cdn.24.co.za/files/Cms/General/d/10743/97d776dc91734e98906c0e1b7f3b1afa.jpg" newsUrl="TODO"/>
+        {this.state.articles.map{(element)=>{
+          return
+          <div className="col-md-4" key={element.url}>
+               <NewsItem title=" element.title" 
+               description ="element.description" imageUrl="element.urlToImage" url="element.newsUrl"/>
         </div>
+        
+        }}}
 
-        <div className="col-md-4">
-                <NewsItem title="my title" description ="my desc"/>
-        </div> 
-             
-               <div className="col-md-4">
-                 <NewsItem title="my title" description ="my desc"/>
-                 </div>
-
-                 <div className="col-md-4">
-                 <NewsItem title="my title" description ="my desc"/>
-        </div>
              </div>
              </div>
                 
