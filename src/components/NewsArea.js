@@ -44,8 +44,8 @@ this.state={
         {this.state.articles.map{(element)=>{
           return
           <div className="col-md-4" key={element.url}>
-               <NewsItem title=" element.title" 
-               description ="element.description" imageUrl="element.urlToImage" url="element.newsUrl"/>
+               <NewsItem title={ element.title.slice(0,88)}
+               description ={element.description} imageUrl={element.urlToImage} url={element.url}/>
         </div>
         
         }}}
