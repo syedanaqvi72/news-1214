@@ -2,10 +2,9 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 
 export class News extends Component {
-  state{
-articles:[
-  {
-    "source":{"id":"cnn","name":"CNN"},
+  
+articles=[
+   { "source":{"id":"cnn","name":"CNN"},
 "author":"Ivan Watson,Kunal Sehgal,Deepak Rao,Rhea Mogul",
 "title":"Despair and anguish stalks hospitals as India reels from devastating train crash - CNN",
 "description":"Manto Kumar was traveling on the Coromandel Express with six of his friends when his train compartment began to violently shake like an earthquake.",
@@ -62,29 +61,37 @@ articles:[
 "urlToImage":"https://techcrunch.com/wp-content/uploads/2023/06/wwdc-2023-featured-crop.jpg?w=1200","publishedAt":"2023-06-05T04:01:02Z","content":"Tomorrows the big day, and were expecting big things well, one really big thing for sure. Apple will kick of WWDC 2023 at 10AM PT Monday June 5 with its customary keynote. As ever, the event will foc… [+754 chars]"},{"source":{"id":null,"name":"ScienceAlert"},"author":"AFP","title":"This Pill Can Halve The Risk of Death After Lung Cancer, Scientists Say - ScienceAlert","description":"A pill has been shown to halve the risk of death from a certain type of lung cancer when taken daily after surgery to remove the tumor, according to clinical trial results presented on Sunday.",
 "url":"https://www.sciencealert.com/this-pill-can-halve-the-risk-of-death-after-lung-cancer-scientists-say","urlToImage":"https://www.sciencealert.com/images/2023/06/TwoLargeOrangePillsOnOrange.jpg","publishedAt":"2023-06-05T03:00:17Z","content":"A pill has been shown to halve the risk of death from a certain type of lung cancer when taken daily after surgery to remove the tumor, according to clinical trial results presented on Sunday.\r\nThe r… [+2873 chars]"},{"source":{"id":"reuters","name":"Reuters"},"author":null,"title":"Fighter jets chase small plane in Washington area before it crashes in Virginia - Reuters.com","description":"The United States scrambled F-16 fighter jets in a supersonic chase of a light aircraft with an unresponsive pilot that violated airspace around Washington D.C. and later crashed into the mountains of Virginia, officials said.","url":"https://www.reuters.com/world/us/loud-boom-shakes-washington-dc-fire-department-reports-no-incidents-2023-06-04/",
 "urlToImage":"https://www.reuters.com/resizer/OrpEJfQ8u6w6aCcHf14gY1PBTG4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/VIPFH3HN4JLODLWV2QA6ATS6CQ.jpg","publishedAt":"2023-06-05T02:58:00Z","content":"WASHINGTON, June 4 (Reuters) - The United States scrambled F-16 fighter jets in a supersonic chase of a light aircraft with an unresponsive pilot that violated airspace around Washington D.C. and lat… [+3085 chars]"},{"source":{"id":"cnn","name":"CNN"},"author":"Hilary Whiteman","title":"Kathleen Folbigg: Mother who served 20 years for killing her four babies pardoned - CNN","description":"A woman condemned as Australia’s worst female serial killer has been pardoned after serving 20 years behind bars for killing her four children in what appears to be one of the country’s gravest miscarriages of justice.","url":"https://www.cnn.com/2023/06/04/australia/australia-kathleen-folbigg-attorney-general-hnk-intl/index.html",
-"urlToImage":"https://media.cnn.com/api/v1/images/stellar/prod/230502122733-02-kathleen-folbigg-2003.jpg?c=16x9&q=w_800,c_fill","publishedAt":"2023-06-05T02:39:00Z","content":"A woman condemned as Australias worst female serial killerhas been pardoned after serving 20 years behind bars for killing her four children in what appears to be one of thecountrys gravest miscarria… [+5923 chars]"},{"source":{"id":null,"name":"YouTube"},"author":null,"title":"New drug effective at preventing growth of lower-grade brain tumors, clinical trial finds - NBC News","description":"A new drug that is in a phase 3 clinical trial has proven effective at preventing the growth of lower-grade brain tumors, with doctors saying nearly half of ...","url":"https://www.youtube.com/watch?v=5KrLR7W0q80","urlToImage":"https://i.ytimg.com/vi/5KrLR7W0q80/maxresdefault.jpg",
-"publishedAt":"2023-06-05T02:30:01Z","content":null},{"source":{"id":null,"name":"SciTechDaily"},"author":null,"title":"Behind Galactic Bars: Webb Telescope Unlocks Secrets of Star Formation - SciTechDaily","description":"NASA's James Webb Space Telescope has captured a detailed image of the barred spiral galaxy NGC 5068. Part of a project to record star formation in nearby galaxies, this initiative provides significant insights into various astronomical fields. The telescope'…","url":"https://scitechdaily.com/?p=283229","urlToImage":"https://scitechdaily.com/images/NGC-5068-Webb-Composite-scaled.jpg","publishedAt":"2023-06-05T02:22:03Z","content":"ByNASAJune 4, 2023\r\nThis image of the barred spiral galaxy NGC 5068 is a composite from two of the James Webb Space Telescopes instruments, MIRI and NIRCam. Credit: ESA/Webb, NASA &amp; CSA, J. Lee a… [+8603 chars]"},{"source":
+"urlToImage":"https://media.cnn.com/api/v1/images/stellar/prod/230502122733-02-kathleen-folbigg-2003.jpg?c=16x9&q=w_800,c_fill","publishedAt":"2023-06-05T02:39:00Z","content":"A woman condemned as Australias worst female serial killerhas been pardoned after serving 20 years behind bars for killing her four children in what appears to be one of thecountrys gravest miscarria… [+5923 chars]"}, 
+{"source":{"id":null,"name":"YouTube"},"author":null,"title":"New drug effective at preventing growth of lower-grade brain tumors, clinical trial finds - NBC News","description":"A new drug that is in a phase 3 clinical trial has proven effective at preventing the growth of lower-grade brain tumors, with doctors saying nearly half of ...","url":"https://www.youtube.com/watch?v=5KrLR7W0q80","urlToImage":"https://i.ytimg.com/vi/5KrLR7W0q80/maxresdefault.jpg",
+"publishedAt":"2023-06-05T02:30:01Z","content":null},
+{"source":{"id":null,"name":"SciTechDaily"},"author":null,"title":"Behind Galactic Bars: Webb Telescope Unlocks Secrets of Star Formation - SciTechDaily","description":"NASA's James Webb Space Telescope has captured a detailed image of the barred spiral galaxy NGC 5068. Part of a project to record star formation in nearby galaxies, this initiative provides significant insights into various astronomical fields. The telescope'…","url":"https://scitechdaily.com/?p=283229","urlToImage":"https://scitechdaily.com/images/NGC-5068-Webb-Composite-scaled.jpg","publishedAt":"2023-06-05T02:22:03Z","content":"ByNASAJune 4, 2023\r\nThis image of the barred spiral galaxy NGC 5068 is a composite from two of the James Webb Space Telescopes instruments, MIRI and NIRCam. Credit: ESA/Webb, NASA &amp; CSA, J. Lee a… [+8603 chars]"}, 
+{"source":
 {"id":null,"name":"NDTV News"},"author":null,"title":"Nikki Haley Attacks Donald Trump, Ron DeSantis Over Ukraine - NDTV","description":"Republican presidential hopeful Nikki Haley, UN ambassador under former President Donald Trump, went after her ex-boss and 2024 rival Ron DeSantis on Sunday over their refusal to say whether they want Ukraine to win its war against Russia.","url":"https://www.ndtv.com/world-news/nikki-haley-attacks-donald-trump-ron-desantis-over-ukraine-4094388","urlToImage":"https://c.ndtvimg.com/2023-02/12nobrmc_nikki-haley_625x300_26_February_23.jpg","publishedAt":"2023-06-05T02:12:33Z","content":"Nikki Haley, 51, a former South Carolina governor, declared her White House bid in February\r\nWashington: Republican presidential hopeful Nikki Haley, UN ambassador under former President Donald Trump… [+2679 chars]"},{"source":{"id":null,"name":"Daily Beast"},"author":"Zachary Petrizzo, Ursula Perano","title":"Far-Right Turns on Marjorie Taylor Greene—And MTG Hits Back in Text to Matt Gaetz - The Daily Beast","description":"The far-right has noticed Rep. Marjorie Taylor Greene has been aligning herself more with Speaker Kevin McCarthy. But MTG isn't backing down—and is putting her critics on notice.","url":"https://www.thedailybeast.com/far-right-turns-on-marjorie-taylor-greeneand-mtg-hits-back-in-text-to-matt-gaetz","urlToImage":"https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_405,w_720,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1685924512/mtg_flip_copy_720_bgbyek","publishedAt":"2023-06-05T01:50:09Z","content":"Even before Marjorie Taylor Greene was sworn into Congress, she was a darling of the far-right.\r\nA MAGA soldier from a deep-red district, Greene spent her first few years in office as a thorn in the … [+7239 chars]"}]
-  };
+};
 
-  constructor() {
+  constructor() 
+  {
     super();
     console.log("I am a construtor from this app")
     this.state={
       articles: this.articles,
       loading: false 
-    };
+    }
   }
 
-async componentDidMount() {
+
+async componentDidMount()
+
+{
     let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ad82d0fce6074bc8a0eb2fab70e1b8cd";
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData);
-    this.setState({ articles: parsedData.articles });
-  }
+    this.setState({ articles: parsedData.articles });}
+  
 
-  render() {
+  render()
+   {
     return (
       <div className='container my-3'>
         <h1>News1214 -- Topheadlines</h1>
