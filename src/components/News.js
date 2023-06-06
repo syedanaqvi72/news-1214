@@ -77,8 +77,8 @@ export class News extends Component {
         <h1>News1214 -- Topheadlines</h1>
         <div className="row">
         {this.state.articles.ma((element)=>{
-          return <div className="col-md-4">
-          <NewsItem title="my title" description="my desc" imageUrl="https://media.cnn.com/api/v1/images/stellar/prod/230603055102-02-india-train-crash-060323.jpg?c=16x9&q=w_800,c_fill "url="TO do"/>
+          return <div className="col-md-4" key={element.url}>
+          <NewsItem title={element.title} description={element.description}imageUrl={element.urlToImage} url={element.url}/>
           </div>
         })}
         
