@@ -3,7 +3,7 @@ import NewsItem from './NewsItem'
 
 export class News extends Component {
 
-  articles="articles":[{"source":{"id":"cnn","name":"CNN"},
+  articles=[{"source":{"id":"cnn","name":"CNN"},
   "author":"Ivan Watson,Kunal Sehgal,Deepak Rao,Rhea Mogul",
   "title":"Despair and anguish stalks hospitals as India reels from devastating train crash - CNN",
   "description":"Manto Kumar was traveling on the Coromandel Express with six of his friends when his train compartment began to violently shake like an earthquake.",
@@ -67,6 +67,8 @@ export class News extends Component {
     super();
     console.log("I am a construtor from this app")
     this.state={
+      articles:this.articles,
+      loading:false
     }
   }
   render() {
@@ -74,19 +76,16 @@ export class News extends Component {
       <div className='container my-3'>
         <h1>News1214 -- Topheadlines</h1>
         <div className="row">
-          <div className="col-md-4">
-        <NewsItem title="my title" description="my desc" imageUrl="https://media.cnn.com/api/v1/images/stellar/prod/230603055102-02-india-train-crash-060323.jpg?c=16x9&q=w_800,c_fill"/>
-        </div>
-        <div className="col-md-4">
-        <NewsItem title="my title" description="my desc"/>
-        </div>
-        <div className="col-md-4">
-        <NewsItem title="my title" description="my desc"/>
-        </div>
+        {this.state.articles.ma((element)=>{
+          return <div className="col-md-4">
+          <NewsItem title="my title" description="my desc" imageUrl="https://media.cnn.com/api/v1/images/stellar/prod/230603055102-02-india-train-crash-060323.jpg?c=16x9&q=w_800,c_fill "url="TO do"/>
+          </div>
+        })}
+        
       </div>
       </div>
     )
   }
 }
 
-export default News
+export default News;
