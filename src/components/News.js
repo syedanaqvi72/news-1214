@@ -88,6 +88,7 @@ async componentDidMount()
     let parsedData = await data.json();
     console.log(parsedData);
     this.setState({ articles: parsedData.articles });}
+    
   
 
   render()
@@ -103,6 +104,8 @@ async componentDidMount()
                 description={element.description? element.description.slice(0, 88):""}
                 imageUrl={element.urlToImage}
                 url={element.url}
+                author={element.author}
+                date={element.publishedAt}
               />
             </div>
           ))}
