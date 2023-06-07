@@ -67,46 +67,45 @@ articles=[
 {"source":{"id":null,"name":"SciTechDaily"},"author":null,"title":"Behind Galactic Bars: Webb Telescope Unlocks Secrets of Star Formation - SciTechDaily","description":"NASA's James Webb Space Telescope has captured a detailed image of the barred spiral galaxy NGC 5068. Part of a project to record star formation in nearby galaxies, this initiative provides significant insights into various astronomical fields. The telescope'…","url":"https://scitechdaily.com/?p=283229","urlToImage":"https://scitechdaily.com/images/NGC-5068-Webb-Composite-scaled.jpg","publishedAt":"2023-06-05T02:22:03Z","content":"ByNASAJune 4, 2023\r\nThis image of the barred spiral galaxy NGC 5068 is a composite from two of the James Webb Space Telescopes instruments, MIRI and NIRCam. Credit: ESA/Webb, NASA &amp; CSA, J. Lee a… [+8603 chars]"}, 
 {"source":
 {"id":null,"name":"NDTV News"},"author":null,"title":"Nikki Haley Attacks Donald Trump, Ron DeSantis Over Ukraine - NDTV","description":"Republican presidential hopeful Nikki Haley, UN ambassador under former President Donald Trump, went after her ex-boss and 2024 rival Ron DeSantis on Sunday over their refusal to say whether they want Ukraine to win its war against Russia.","url":"https://www.ndtv.com/world-news/nikki-haley-attacks-donald-trump-ron-desantis-over-ukraine-4094388","urlToImage":"https://c.ndtvimg.com/2023-02/12nobrmc_nikki-haley_625x300_26_February_23.jpg","publishedAt":"2023-06-05T02:12:33Z","content":"Nikki Haley, 51, a former South Carolina governor, declared her White House bid in February\r\nWashington: Republican presidential hopeful Nikki Haley, UN ambassador under former President Donald Trump… [+2679 chars]"},{"source":{"id":null,"name":"Daily Beast"},"author":"Zachary Petrizzo, Ursula Perano","title":"Far-Right Turns on Marjorie Taylor Greene—And MTG Hits Back in Text to Matt Gaetz - The Daily Beast","description":"The far-right has noticed Rep. Marjorie Taylor Greene has been aligning herself more with Speaker Kevin McCarthy. But MTG isn't backing down—and is putting her critics on notice.","url":"https://www.thedailybeast.com/far-right-turns-on-marjorie-taylor-greeneand-mtg-hits-back-in-text-to-matt-gaetz","urlToImage":"https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_405,w_720,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1685924512/mtg_flip_copy_720_bgbyek","publishedAt":"2023-06-05T01:50:09Z","content":"Even before Marjorie Taylor Greene was sworn into Congress, she was a darling of the far-right.\r\nA MAGA soldier from a deep-red district, Greene spent her first few years in office as a thorn in the … [+7239 chars]"}]
-};
-constructor() 
-{ super();
-  console.log("I am a construtor from this app")
+
+
+constructor(){
+super();
+  console.log("I am a construtor from this app");
   this.state={
     articles: this.articles,
     loading: false 
-  }
+  };
 }
-/*
-async componentDidMount()
-{
-    let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ad82d0fce6074bc8a0eb2fab70e1b8cd";
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    console.log(parsedData);
-    this.setState({ articles: parsedData.articles });}}*/
-    
-  
-        render () {
-  return (
-    <div className='container my-3'>
-        <h1>News1214 -- Topheadlines</h1>
-        <div className="row">
-          {this.state.articles.map((element) => (
-            <div className="col-md-4" key={element.url}>
-              <NewsItem
-                title={element.title? element.title.slice(0, 44):""}
-                description={element.description? element.description.slice(0, 88):""}
-                imageUrl={element.urlToImage}
-                url={element.url}
-                author={element.author}
-                date={element.publishedAt}
-              />
-            </div>
-          ))}
+   async componentDidMount(){
+      console.log("cdm");
+      
+            let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ad82d0fce6074bc8a0eb2fab70e1b8cd";
+            let response = await fetch(url);
+            let parsedData = await response.json();
+            console.log(parsedData);
+            this.setState({ articles: parsedData.articles });
+          }
+
+        render()
+                { return (
+                     <div className='container my-3'>
+                     <h1>News1214 -- Topheadlines</h1>
+                     <div className="row">
+                     {this.state.articles.map((element) => {
+                           return<div className="col-md-4" key={element.url}>
+                     <NewsItem
+                     title={element.title? element.title.slice(0, 44):""}
+                     description={element.description? element.description.slice(0, 88):""}
+                     imageUrl={element.urlToImage}
+                     url={element.url}
+                     author={element.author}
+                     date={element.publishedAt} />
+                             </div>
+        })}
         </div>
       </div>
-    );
-  }}
-
+          );}
+      }
 
 export default News;
